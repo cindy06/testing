@@ -3,12 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        build(job: 'building', quietPeriod: 3, wait: true)
-      }
-    }
-    stage('deploy') {
-      steps {
-        powershell 'test.sh'
+         powershell 'docker_image.sh'
       }
     }
   }
