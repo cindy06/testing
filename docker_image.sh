@@ -7,7 +7,7 @@ sudo ./Bluemix_CLI/install_bluemix_cli
 
 echo "install plugin"
 bx plugin install container-registry -r Bluemix
-bx login -a https://api.ng.bluemix.net -u "xinxli@cn.ibm.com" -p "vbfgrt45" -o "xinxli@cn.ibm.com" -s "space1"
+bx login -a https://api.ng.bluemix.net -u "xinxli@cn.ibm.com" -p "*****" -o "xinxli@cn.ibm.com" -s "space1"
 # bx cr namespace-add <my_namespace>
 bx cr login
 
